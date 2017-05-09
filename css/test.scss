@@ -1,0 +1,66 @@
+//style.scss
+
+@charset "utf-8";
+
+@import "scss/_font";
+@import "scss/_helper";
+
+body {margin:0;padding:0;}
+div {
+  display:block;
+  box-sizing:border-box;
+}
+a {
+  text-decoration:none;
+  color:#fff;
+  padding: 0px;
+  display:inline-block;
+  font-weight:bold;
+  margin:0;
+}
+h1 {
+  font-family:$gill-sans;
+  text-align:$alignLeft;
+  font-size:45px;
+  line-height:50px;
+  color:#000;
+  background-color:#fff;
+  padding:10px;
+  width:200px;
+  margin:0;
+
+}
+h2 {
+  font-family:$gill-sans;
+  text-align:$alignLeft;
+  font-size:20px;
+  line-height:25px;
+  color:#000;
+  background-color:#fff;
+  padding:10px;
+  margin:0;
+  width:95px;
+}
+img {
+  max-width:100%;
+  display:block;
+  margin:0 auto;
+  // &:hover {
+  //   opacity:0.4;
+  // }
+}
+.wrapper {
+  width:100%;
+  padding:0 20px;
+  section {
+    width:100%;
+  }
+  .content {
+    width:100%;
+  }
+  .sidebar {
+    width:100%;
+  }
+}
+
+@import "scss/_responsive";
